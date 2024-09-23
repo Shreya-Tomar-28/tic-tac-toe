@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #f4e0e0;
+}
+
+h1 {
+  color: #d33860;
+  padding: 1rem;
+  font-size: 4rem;
+  
+}
+.container{
+  height: 68vh;  
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+
+}
+.game {
+  height: 60vmin;  
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 1rem;
+}
+.btns {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 5px 5px 5px 1px#d3213c;
+  background-color: #f1acbd;
+  color:#d33860;
+  font-size: 4rem; 
+  
+}
+
+.reset button ,#newB{
+  background-color: #d33860;
+  color:white;  
+  font-size: 1.38rem;
+  padding: 1rem;  
+  border-radius: 1rem;
+  border: none;  
+}
+
+#rst, .btns , #newB:hover{
+    cursor: pointer;
+}
+
+.msg-container p{
+  font-size: 2rem ;
+  color: #d33860;
+}
+.msg-container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+.hide{
+  display: none;
+
+}
+/* 
+
+.ads{
+  text-align: center;
+  margin: .4vw 0;
+  background: #F4CC70;
+  padding: .4vw;
+}
+
+.content{
+  margin: .4vw 0;
+  background: lightblue;
+  padding: .4vw;
+}
+.tic-panel{
+  border: solid 2px black;
+  margin: .4vw 0;
+  background: #66A5AD;
+  padding: .4vw;
+}
+
+.tic-box{
+  border: solid black 1px;
+  font-size: 5vw;
+  background: #6AB187;
+  text-align: center;
+  color: lavender;
+}
+.tic-box:hover{
+  background: #20948B;
+} */
